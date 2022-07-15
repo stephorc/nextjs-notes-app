@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Sidenav from '../components/Sidenav';
 // import Image from 'next/image';
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <h1 className='font-bold'>Test</h1>
+      <Sidenav />
     </div>
   );
 };
